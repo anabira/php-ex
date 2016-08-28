@@ -52,7 +52,19 @@ $db = new PDO($dsn, DB_USER, DB_PASS);
     $population = 33330000;
     $stmt->execute();
 
+    // insert a row
+    $name = "Nagpur";
+    $population = 25000000;
+    $stmt->execute();
+
+    // insert a row
+    $name = "Mumbai";
+    $population = 50000000;
+    $stmt->execute();
+
+
     echo "New records created successfully";
+
     }
 catch(PDOException $e)
     {
@@ -65,11 +77,11 @@ $db = null;
 //$result = $db->exec("INSERT INTO city(name, population) VAULES(Nagpur, 4500000)");
 //$insertId = $db->lastInsertId();
 
-foreach($db->query('SELECT * FROM city') as $row) {
+//foreach($db->query('SELECT * FROM city') as $row) {
 
-	echo "<br>";
+//	echo "<br>";
 
-    	echo $row['name'].' '.$row['population']; //etc...
-}
+  //  	echo $row['name'].' '.$row['population']; //etc...
+//}
 
 ?>
