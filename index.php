@@ -212,13 +212,10 @@ line-height: 1.4;
           </hgroup>
 <p> This is sample PHP application by Ashish Nabira</p>
 
-<p> Click here to insert some records in Mysql DB</p>
-<p> Click here to vie<a href="https://php-nabira-rhcloud.com/"></a>  those records in Mysql DB</p>
+   <p>Click  <a href="insert.html">here </a> insert some records in Mysql DB</p>
+   <p>Click  <a href="showdb.php">here </a> to view that record in Mysql DB</p>
 
- <form action="insert.php" method="post">
-            <input type="text" name="user" placeholder="enter a text" />
-            <input type="submit" value="submit" onclick="test()" />
-    </form>
+
 
 
 

@@ -43,7 +43,10 @@ $db = new PDO($dsn, DB_USER, DB_PASS);
 
 
     echo "New records created successfully";
+
+echo "<br>";
  echo $_POST["name"]; 
+echo "<br>";
  echo $_POST["population"]; 
 
     }
