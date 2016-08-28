@@ -37,14 +37,33 @@ $db = new PDO($dsn, DB_USER, DB_PASS);
     $stmt->bindParam(':population', $population);
 
     // insert a row
-    $name = $_POST["name"];
-    $population = $_POST["population"];
+    $name = "Jodhpur";
+    $population = 890000;
+    $stmt->execute();
+
+    // insert a row
+    $name = "Jaipur";
+    $population = 8890000;
+    $stmt->execute();
+
+
+    // insert a row
+    $name = "Vizag";
+    $population = 33330000;
+    $stmt->execute();
+
+    // insert a row
+    $name = "Nagpur";
+    $population = 25000000;
+    $stmt->execute();
+
+    // insert a row
+    $name = "Mumbai";
+    $population = 50000000;
     $stmt->execute();
 
 
     echo "New records created successfully";
- echo $_POST["name"]; 
- echo $_POST["population"]; 
 
     }
 catch(PDOException $e)
