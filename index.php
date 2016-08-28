@@ -212,7 +212,9 @@ line-height: 1.4;
           </hgroup>
 <p> <br> </p>
 
-   <p>Click  <a href="insert.html">here </a> insert some records in Mysql DB</p>
+   <p>Click  <a href="createdb.php">here </a> to intialize Mysql DB</p>
+
+   <p>Click  <a href="insert.html">here </a> to insert some records in Mysql DB</p>
 
 <p> <br> </p>
 

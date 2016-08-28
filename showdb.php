@@ -4,7 +4,7 @@
 <h1> Present City Population</h1>
 
 <?php
-mysql_connect("$OPENSHIFT_MYSQL_DB_HOST", "adminceMZEak", "cMa2mtACKIWr") or die(mysql_error());
+mysql_connect("$OPENSHIFT_MYSQL_DB_HOST", "$OPENSHIFT_MYSQL_DB_USERNAME", "$OPENSHIFT_MYSQL_DB_PASSWORD") or die(mysql_error());
 
 mysql_select_db("php") or die(mysql_error());
 
