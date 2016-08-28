@@ -210,9 +210,12 @@ line-height: 1.4;
           <hgroup>
             <h1>Welcome to your PHP app on OpenShift by Ashish Nabira</h1>
           </hgroup>
-<p> This is sample PHP application by Ashish Nabira</p>
+<p> <br> </p>
 
    <p>Click  <a href="insert.html">here </a> insert some records in Mysql DB</p>
+
+<p> <br> </p>
+
    <p>Click  <a href="showdb.php">here </a> to view that record in Mysql DB</p>
 
 
