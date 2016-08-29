@@ -20,7 +20,7 @@ $db = new PDO($dsn, DB_USER, DB_PASS);
     $stmt = $db->prepare("CREATE table city  ( name varchar (20), population INT" ); 
 
     $stmt->execute();
-
+echo " <br> Table City created in database "
 $db = null;
 
 ?>
