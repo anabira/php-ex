@@ -17,7 +17,7 @@ $db = new PDO($dsn, DB_USER, DB_PASS);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // prepare sql and bind parameters
-    $stmt = $db->prepare("CREATE table city  ( name varchar (20), population INT" ); 
+    $stmt = $db->prepare("CREATE table city  ( name varchar (20), population INT ); 
 
     $stmt->execute();
 echo " <br> Table City created in database "
